@@ -18,10 +18,10 @@
 
 运行demo.py，会生成相应的的词云图"output/xx.png"，和"freq/词频统计xx.txt"
 
-eg:输入“alice.txt”的词云图如下：
+eg:输入“B1.txt”的词云图如下：
 
-![image](https://raw.githubusercontent.com/fuqiuai/wordCloud/master/Images/alice.png)
+![image](https://github.com/MsEspeon/VCloud/blob/main/output/B1.png)
 
-十九大报告全文的词云图如下：
+输入“B50.txt”的词云图如下：
 
-![image](https://raw.githubusercontent.com/fuqiuai/wordCloud/master/Images/十九大.png)
+![image](https://github.com/MsEspeon/VCloud/blob/main/output/B50.png)

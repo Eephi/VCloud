@@ -42,8 +42,8 @@ def generate_wordcloud(text, outname):
     wc.to_file('./output/' + outname + '.png')
 
     # 显示图像
-    plt.imshow(wc, interpolation='bilinear')
+    #plt.imshow(wc, interpolation='bilinear')
     # interpolation='bilinear' 表示插值方法为双线性插值
-    plt.axis("off")# 关掉图像的坐标
-    plt.show()
+    #plt.axis("off")# 关掉图像的坐标
+    #plt.show()
 
