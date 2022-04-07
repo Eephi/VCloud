@@ -22,9 +22,9 @@
 
 ## 字典和停用词表
 
-为了提高分词的准确性，选取了一些v圈常用词汇加入字典dict.txt，词汇的选取仅与使用热度有关，不代表作者本人立场
+为了提高分词的准确性，选取了一些v圈常用词汇加入字典[dict.txt](https://github.com/MsEspeon/VCloud/blob/main/dict.txt)，词汇的选取仅与使用热度有关，不代表作者本人立场
 
-此外制作了停用词表stopwords.txt，用于筛选一些无意义的高频词
+此外制作了停用词表[stopwords.txt](https://github.com/MsEspeon/VCloud/blob/main/stopwords.txt)，用于筛选一些无意义的高频词
 
 字典和停用词表可根据个人需求修改
 
