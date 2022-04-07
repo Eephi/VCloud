@@ -9,10 +9,11 @@ def word_segment(text, outname):
     '''
     通过jieba进行分词并通过空格分隔,返回分词后的结果
     '''
-
+    # 自定义词典
+    jieba.load_userdict("./dict.txt")
     # 计算每个词出现的频率，并存入txt文件
     jieba_word=jieba.cut(text,cut_all=False) # cut_all是分词模式，True是全模式，False是精准模式，默认False
-    data=[]
+    data = []
     for word in jieba_word:
         data.append(word)
     dataDict=Counter(data)
