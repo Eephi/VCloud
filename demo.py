@@ -15,7 +15,7 @@ if __name__=='__main__':
             end = text_file.find('.')
             outname = text_file[0:end]
             # 忽略英文文本
-            text = re.sub("[A-Za-z0-9\[\`\~\!\@\#\$\^\&amp;\*\(\)\=\|\{\}\'\:\;\'\,\[\]\.\&lt;\&gt;\/\?\~\。\@\#\\\&amp;\*\%]", "",text)
+            # text = re.sub("[A-Za-z0-9\[\`\~\!\@\#\$\^\&amp;\*\(\)\=\|\{\}\'\:\;\'\,\[\]\.\&lt;\&gt;\/\?\~\。\@\#\\\&amp;\*\%]", "",text)
             # 中文分词
             text=chnSegment.word_segment(text, outname)
             # 生成词云
