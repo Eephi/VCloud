@@ -1,4 +1,4 @@
-# wordCloud
+# VCloud
 
 用python进行文本分词并生成词云，词云程序credit to: <https://github.com/fuqiuai/wordCloud>
 
